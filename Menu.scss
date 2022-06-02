@@ -1,0 +1,236 @@
+$var2: white;
+$var3: 100%;
+
+@media  (min-width: 500px) and (max-width: 1100px) { 
+
+    #menu__toggle {
+        opacity: 0;
+      }
+      /* стилизуем кнопку */
+      .menu__btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; /* используем flex для центрирования содержимого */
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        z-index: 2;
+      }
+      /* добавляем "гамбургер" */
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: $VAR3;
+        height: 2px;
+        background-color: $var2;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      
+      /* контейнер меню */
+      .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -$VAR3;
+        width: 300px;
+        height: $VAR3;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color:#1D1D1D;
+        opacity: 0.7;
+        z-index: 1;
+        -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+                box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+      }
+      /* элементы меню */
+      .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: $var2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .menu__item:hover {
+        background-color: #ffffff;
+      
+      }
+      
+      #menu__toggle:checked ~ .menu__btn > span {
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        -webkit-transform: rotate(0);
+            -ms-transform: rotate(0);
+                transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+    }
+    @media   (min-width: 1101px) { 
+    .menu__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      
+    
+    
+    
+      width: 300px;
+      height: $VAR3;
+      margin: 0;
+    
+      list-style: none;
+    
+      z-index: 1;
+     
+    } 
+    
+    .menu__item {
+    
+      padding: 14px;
+      color: $var2;
+      font-family: 'Roboto', sans-serif;
+      font-size: 32px;
+      
+      text-decoration: none;
+    }
+    #menu__toggle {
+      opacity: 0;
+    }
+    .hamburger-menu{
+    
+      -ms-flex-wrap: nowrap;
+    
+          flex-wrap: nowrap;
+      padding-left: 60%;
+     
+    }
+    }
+    @media   (max-width: 500px) { 
+    
+      #menu__toggle {
+          opacity: 0;
+        }
+        /* стилизуем кнопку */
+        .menu__btn {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; /* используем flex для центрирования содержимого */
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;  /* центрируем содержимое кнопки */
+          position: fixed;
+          top: 20px;
+          left: 20px;
+          width: 35px;
+          height: 35px;
+          cursor: pointer;
+          z-index: 2;
+        }
+        /* добавляем "гамбургер" */
+        .menu__btn > span,
+        .menu__btn > span::before,
+        .menu__btn > span::after {
+          display: block;
+          position: absolute;
+          width: $VAR3;
+          height: 2px;
+          background-color: $var2;
+        }
+        .menu__btn > span::before {
+          content: '';
+          top: -8px;
+        }
+        .menu__btn > span::after {
+          content: '';
+          top: 8px;
+        }
+        
+        /* контейнер меню */
+        .menu__box {
+          display: block;
+          position: fixed;
+          visibility: hidden;
+          top: 0;
+          left: -$VAR3;
+          width: $VAR3;
+          height: $VAR3;
+          margin: 0;
+          padding: 80px 0;
+          list-style: none;
+          text-align: center;
+          background-color:#1D1D1D;
+          opacity: 0.7;
+          z-index: 1;
+          -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+                  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        }
+        /* элементы меню */
+        .menu__item {
+          display: block;
+          padding: 12px ;
+          padding-top: 44px;
+          color: $var2;
+          font-family: 'Roboto', sans-serif;
+          font-size: 30px;
+          font-weight: 600;
+          text-decoration: none;
+        }
+        .menu__item:hover {
+          background-color: #ffffff;
+        
+        }
+        
+        #menu__toggle:checked ~ .menu__btn > span {
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg);
+        }
+        #menu__toggle:checked ~ .menu__btn > span::before {
+          top: 0;
+          -webkit-transform: rotate(0);
+              -ms-transform: rotate(0);
+                  transform: rotate(0);
+        }
+        #menu__toggle:checked ~ .menu__btn > span::after {
+          top: 0;
+          -webkit-transform: rotate(90deg);
+              -ms-transform: rotate(90deg);
+                  transform: rotate(90deg);
+        }
+        #menu__toggle:checked ~ .menu__box {
+          visibility: visible;
+          left: 0;
+        }
+      }

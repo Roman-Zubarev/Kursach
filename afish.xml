@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./sass/products.css"?>
+
+<main>
+<films>
+
+
+<item>
+<name>Финник</name>
+<price>70</price>
+<id>1</id>
+
+</item>
+
+<item>
+<name>Творцы снов</name>
+<price>150</price>
+<id>2</id>
+
+</item>
+
+<item>
+<name>Лулу и Бриггс</name>
+<price>110</price>
+<id>3</id>
+
+</item>
+
+<item>
+<name>Доктор </name>
+<price>60</price>
+<id>4</id>
+
+</item>
+
+<item>
+<name>Человек паук</name>
+<price>40</price>
+<id>5</id>
+
+</item>
+
+<item>
+<name>Проект Адам</name>
+<price>35</price>
+<id>6</id>
+
+</item>
+
+<item>
+<name>Мир Юрского</name>
+<price>200</price>
+<id>7</id>
+
+</item>
+
+<item>
+<name>Анчартед</name>
+<price>130</price>
+<id>8</id>
+
+</item>
+
+
+</items>
+</main>

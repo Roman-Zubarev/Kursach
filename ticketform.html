@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="icon" href="cinema_popcorn_icon-icons.com_66128.ico" type="image/ico">
+     <link rel="stylesheet" href="Ticket.css">
+  <title>Заказать билет</title>
+  <meta charset="utf-8">
+   </head>
+    
+<body>
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Заказать билет</h1>
+    <p>Пожалуйста заполните форму</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Введите Email" name="email" required>
+
+    
+ 
+    <label for="email" ><b>Выберите фильм</b></label><select name="select1" class="select1" >
+        <option value="s1 ">Доктор Стрэндж: В мультивселенной безумия. </option>
+        <option value="s2">Мир Юрского периода: Господство</option>
+        <option value="s3">Анчартед: На картах не значится</option>
+        <option value="s4">Финник</option>
+        <option value="s5">Человек-паук:Нет пути домой</option>
+        <option value="s6">Лулу и Бриггс</option>
+        <option value="s7">Проект «Адам»</option>
+        <option value="s7">Творцы снов</option>
+        </select>
+
+
+        <label for="email" ><b>Выберите дату</b></label><br>
+        <input type="date" class="kalendarik" ><br>
+
+
+        <label ><b>Выберите время</b></label><br>
+        <select name="select2" class="select2" >
+            <option value="s8 ">10am</option>
+            <option value="s9">12am</option>
+            <option value="s10">2pm</option>
+            <option value="s11">4pm</option>
+            <option value="s12">6pm</option>
+            <option value="s13">8pm</option>
+            <option value="s14">10pm</option>
+            </select>
+
+
+
+            <label ><b>Выберите кинотеатр</b></label><br>
+            <select name="select2" class="select2" >
+                <option value="s15 ">На Бобруйской</option>
+                <option value="s16">На Свердлова</option>
+            
+                </select>
+
+
+                <label for="email"><b> Количество мест</b></label>
+    <input type="text" placeholder="Введите количество мест" name="emount" required>
+
+
+    <div class="clearfix">
+      <a href="Main.html"><button type="button" class="cancelbtn">Отмена</button></a>
+      <button type="submit" class="signupbtn" onclick="alert('Реквизиты для оплаты отправлены на Email')">Подтвердить</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
+ 
+

@@ -1,0 +1,130 @@
+$pad1: 15px;
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {-webkit-box-sizing: border-box;box-sizing: border-box}
+
+.kalendarik{
+    margin: 5px 0 22px 0;
+}
+input[type=text], input[type=password]:focus select:focus {
+    background-color: #ddd;
+    outline: none;
+
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+button:hover {
+    opacity:1;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+
+@media (min-width: 280px) and (max-width: 700px) { 
+input[type=text], input[type=password],select {
+    width: 100%;
+    padding:$pad1;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding:$pad1 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 10vw;
+}
+
+
+label,h1,.kalendarik{
+    font-size: 10vw;
+}
+p{
+    font-size: 10vw;
+}
+}
+@media (min-width: 701px) and (max-width: 1200px) { 
+input[type=text], input[type=password],select {
+    width: 100%;
+    padding: $pad1;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: 3vw;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: $pad1 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 3vw;
+}
+
+
+label,h1,.kalendarik{
+    font-size: 3vw;
+}
+p{
+    font-size: 2vw;
+}
+}
+
+input[type=text], input[type=password],select {
+    width: 100%;
+    padding: $pad1;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: $pad1 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 3vw;
+}
+
+
+label,h1,.kalendarik{
+    font-size: 2vw;
+}
+p{
+    font-size: 1vw;
+}
+

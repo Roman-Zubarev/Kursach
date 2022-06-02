@@ -1,0 +1,571 @@
+
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+
+ @media (min-width: 1360px)  {  
+
+.aaa{
+
+        animation-name: headerLane;
+
+        animation-duration: 15s;
+
+        animation-iteration-count: infinite;
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+width: 100%;
+height: 650px; /*690*/
+
+
+}
+
+.p1,.p2,.p3{
+position: absolute;
+font-size: 50px;
+color:white;
+
+        animation-duration: 15s;
+top: 450px; 
+
+        animation-iteration-count: infinite;
+text-shadow: 1px 1px 2px black;
+max-height: 700px;
+
+}
+
+.flexbox{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+max-height: 1100px;
+max-width: 100%;
+height: 1100px;
+background-color:#1D1D1D;
+}
+
+
+.flex{
+-webkit-box-flex:1;
+    -ms-flex:1 1 calc(33.33% );
+        flex:1 1 calc(33.33% ); /* отнимем margin и скажем растягиваться */
+
+-webkit-box-sizing:border-box;
+
+        box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+
+width: 50%;
+text-align: center;
+
+height: 350px;
+}
+#kino0{
+color: #ffffff;
+font-size: 45px;
+padding-bottom: 100px;
+}
+.img{
+width: 80%;
+height: 350px;
+
+}
+#kino1{
+
+padding-top:145px;
+font-size: 40px;
+color: #ffffff;
+
+}
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1360px) { 
+
+.aaa{
+          animation-name: headerLane;
+          animation-duration: 15s;
+          animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 450px; /*690*/
+ 
+
+}
+
+
+.p1,.p2,.p3{
+  position: absolute;
+  font-size: 40px;
+  color:white;
+          animation-duration: 15s;
+  top: 300px; 
+          animation-iteration-count: infinite;
+  text-shadow: 1px 1px 2px black;
+ 
+  max-height: 700px;
+
+}
+
+.flexbox{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 900px;
+  max-width: 100%;
+ height: 800px;
+ background-color:#1D1D1D;
+
+}
+
+
+.flex{
+  -webkit-box-flex: calc(33.33% );
+      -ms-flex: calc(33.33% );
+          flex: calc(33.33% ); 
+  
+  -webkit-box-sizing:border-box; 
+  
+          box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+
+  width: 50%;
+ text-align: center;
+ 
+
+}
+#kino0{
+  color: #ffffff;
+  font-size: 40px;
+ padding-bottom: 60px;
+}
+.img{
+  width: 80%;
+  height: 200px;
+ 
+  }
+#kino1{
+ 
+  padding-top:90px;
+  font-size: 35px;
+ color: #ffffff;
+
+}
+
+}
+
+@media (min-width: 700px) and (max-width: 1000px) { 
+
+.aaa{
+          animation-name: headerLane;
+          animation-duration: 15s;
+          animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 450px; /*690*/
+ 
+
+}
+
+.p1,.p2,.p3{
+  position: absolute;
+  font-size: 40px;
+  color:white;
+          animation-duration: 15s;
+  top: 300px; 
+          animation-iteration-count: infinite;
+  text-shadow: 1px 1px 2px black;
+ 
+  max-height: 700px;
+
+}
+
+.flexbox{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 900px;
+  max-width: 100%;
+ height: 800px;
+ background-color:#1D1D1D;
+
+}
+
+
+.flex{
+  -webkit-box-flex: calc(33.33% );
+      -ms-flex: calc(33.33% );
+          flex: calc(33.33% ); /* отнимем margin и скажем растягиваться */
+  
+  -webkit-box-sizing:border-box;
+  
+          box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+
+  width: 50%;
+ text-align: center;
+
+
+}
+#kino0{
+  color: #ffffff;
+  font-size: 40px;
+  padding-bottom: 60px;
+}
+.img{
+  width: 80%;
+  height: 200px;
+ 
+  }
+#kino1{
+ 
+  padding-top:80px;
+  font-size: 32px;
+ color: #ffffff;
+
+}
+
+
+}
+@media (min-width: 280px) and (max-width: 699px) { 
+
+.aaa{
+  -webkit-animation-name: headerLane;
+          animation-name: headerLane;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  height: 650px; /*690*/
+ 
+
+}
+
+.p1,.p2,.p3{
+  position: absolute;
+  font-size: 27px;
+  color:white;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  top: 425px; 
+  -webkit-animation-iteration-count: infinite; 
+          animation-iteration-count: infinite;
+  text-shadow: 1px 1px 2px black;
+ 
+  max-height: 700px;
+
+}
+
+  .flexbox{
+ background-color:#1D1D1D;
+
+}
+
+#kino0{
+  color: #ffffff;
+  font-size: 40px;
+  padding-bottom: 60px;
+}
+.img{
+  width: 80%;
+  height: 200px;
+ padding-left: 10%;
+  }
+#kino1{
+ 
+  padding-top:40px;
+  font-size: 32px;
+ color: #ffffff;
+
+}
+}
+
+
+
+
+@keyframes headerLane {
+0% {
+    background-image: url(Strenge.svg);
+
+}
+10% {
+  background-image: url(Strenge.svg) ;
+
+
+}
+
+20% {
+    background-image: url(zxc2.jpg);
+
+}
+40% {
+  background-image: url(zxc2.jpg) ;
+
+}
+
+60% {
+    background-image: url(spiderman.jpg) ;
+  
+}
+80% {
+  background-image: url(spiderman.jpg) ;
+  
+ 
+}
+90% {
+background-image: url(Strenge.svg) ;
+
+
+}
+100% {
+  background-image: url(Strenge.svg) ;
+
+
+}
+}
+.p1{
+-webkit-animation-name: slidein1;
+        animation-name: slidein1;
+}
+.p2{
+
+-webkit-animation-name: slidein2;
+
+        animation-name: slidein2;
+
+}
+.p3{
+
+-webkit-animation-name: slidein3;
+
+        animation-name: slidein3;
+
+}
+
+@-webkit-keyframes slidein1 {
+ 0% {
+   opacity: 1;
+ 
+ }
+ 10%{
+   opacity: 1;
+     }
+
+ 20% {
+ opacity: 0;
+}
+ 40% {
+ opacity: 0;
+}
+
+60% {
+ opacity: 0;
+}
+80% {
+ opacity: 0;
+ }
+100% {
+ opacity: 1;
+
+}
+}
+
+@keyframes slidein1 {
+ 0% {
+   opacity: 1;
+ 
+ }
+ 10%{
+   opacity: 1;
+     }
+
+ 20% {
+ opacity: 0;
+}
+ 40% {
+ opacity: 0;
+}
+
+60% {
+ opacity: 0;
+}
+80% {
+ opacity: 0;
+ }
+100% {
+ opacity: 1;
+
+}
+}
+@-webkit-keyframes slidein2 {
+ 0% {
+   opacity: 0;
+
+ }
+
+10%{
+ opacity: 0;
+ 
+}
+
+20% {
+ opacity: 0;
+
+}
+40% {
+ opacity: 0;
+
+}
+
+60% {
+
+  opacity: 1;
+}
+80% {
+
+ opacity: 1;
+}
+
+100% {
+ opacity: 0;
+
+}
+}
+@keyframes slidein2 {
+ 0% {
+   opacity: 0;
+
+ }
+
+10%{
+ opacity: 0;
+ 
+}
+
+20% {
+ opacity: 0;
+
+}
+40% {
+ opacity: 0;
+
+}
+
+60% {
+
+  opacity: 1;
+}
+80% {
+
+ opacity: 1;
+}
+
+100% {
+ opacity: 0;
+
+}
+}
+@-webkit-keyframes slidein3 {
+ 0% {
+   opacity: 0;
+
+   }
+
+ 10%{
+   opacity: 0;
+  
+   }
+20% {
+ opacity: 1;
+
+}
+40% {
+ opacity: 1;
+
+}
+
+
+60% {
+
+   opacity: 0;
+}
+80% {
+
+   opacity: 0;
+}
+100% {
+
+  opacity: 0;
+}
+}
+@keyframes slidein3 {
+ 0% {
+   opacity: 0;
+
+   }
+
+ 10%{
+   opacity: 0;
+  
+   }
+20% {
+ opacity: 1;
+
+}
+40% {
+ opacity: 1;
+
+}
+
+
+60% {
+
+   opacity: 0;
+}
+80% {
+
+   opacity: 0;
+}
+100% {
+
+  opacity: 0;
+}
+}
+span{
+font-size: 25px;
+color:white;
+text-shadow:4px 5px 6px black;
+}
+.cl{
+
+background-color:#1D1D1D;
+max-width: 100%;
+height: 900px; 
+}
